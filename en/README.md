@@ -52,19 +52,25 @@ Next, log in as the margin user through your favorite RDP client, open Firefox a
 
 Next, open a terminal: 
 
-`cd Downloads`
+```bash
+cd Downloads
+```
 
 Next, some packages need to be installed in order to run the Margin trading terminal: 
 
-`sudo apt install -y xcb* libxcb* libxkbcommon*`
+```bash
+sudo apt install -y xcb* libxcb* libxkbcommon*
+```
 
 Finally, run the terminal: 
 
-`./margin-x86_64-4.6.0.AppImage`
+```bash
+./margin-x86_64-4.6.0.AppImage
+```
 
 <h1 id="machine_sleep" >If my machine goes to sleep, will margin and its bots keep running?</h1>
 
-No, if your laptop goes to sleep the bots will stop working. Amphetamine, NoSleep, and Caffeine are popular apps to stop your machine from going into sleep mode. Otherwise, you can use a VPS. See our other help article: Can I use a VPS?
+No, if your laptop goes to sleep the bots will stop working. Amphetamine, NoSleep, and Caffeine are popular apps to stop your machine from going into sleep mode. Otherwise, you can use a VPS. See our other help article: [Can I use a VPS?](#use_vps)
 
 
 <h1 id="get_error_message" >On Linux I'm getting the error message: Could not load the Qt platform plugin "xcb" in "" even though it was found.</h1>
@@ -94,7 +100,9 @@ Yes, some VPSs run very minimal versions of Ubuntu that do not contain needed li
 
 Then please do the following: 
 
-`sudo apt install libxcb-xkb-dev libxkbcommon-*`
+```bash
+sudo apt install libxcb-xkb-dev libxkbcommon-*
+```
 
 Then you should be good to go! Note, if you set up a fresh full version of Ubuntu, these libraries are included and this step is not needed.
 
