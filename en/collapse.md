@@ -1,6 +1,6 @@
 
 <details>
-  <summary><h1 id="get_start" >Getting started on Linux</h1></summary>
+  <summary><h3 id="get_start" >Getting started on Linux</h3></summary>
 
 
 1. Download margin-x86_64-4.6.0.AppImage from [BTSE link](https://app.btse.com/download/margin-x86_64.AppImage)
@@ -12,7 +12,7 @@ Adapt for the location you actually put margin in.
 </details>
 
 <details>
-  <summary><h1 id="setup_linux_vps" >Setting up a Linux VPS to run Margin</h1></summary>
+  <summary><h3 id="setup_linux_vps" >Setting up a Linux VPS to run Margin</h3></summary>
 
 Running Margin on a cloud-based VPS such as Azure or DigitalOcean allows a trader to run their strategies uninterrupted.
 
@@ -55,14 +55,14 @@ Finally, run the terminal:
 </details>
 
 <details>
-  <summary><h1 id="machine_sleep" >If my machine goes to sleep, will margin and its bots keep running?</h1></summary>
+  <summary><h3 id="machine_sleep" >If my machine goes to sleep, will margin and its bots keep running?</h3></summary>
 
 No, if your laptop goes to sleep the bots will stop working. Amphetamine, NoSleep, and Caffeine are popular apps to stop your machine from going into sleep mode. Otherwise, you can use a VPS. See our other help article: [Can I use a VPS?](#use_vps)
 </details>
 
 
 <details>
-  <summary><h1 id="get_error_message" >On Linux I'm getting the error message: Could not load the Qt platform plugin "xcb" in "" even though it was found.</h1></summary>
+  <summary><h3 id="get_error_message" >On Linux I'm getting the error message: Could not load the Qt platform plugin "xcb" in "" even though it was found.</h3></summary>
 
 This error is related to the XCB-Platform plugin of the underlying Qt library. It can be fixed by manually installing all xcb-related packages:
 
@@ -83,7 +83,7 @@ QT_DEBUG_PLUGINS=1 ./margin-x86_64-4.6.0.AppImage
 
 
 <details>
-  <summary><h1 id="cannot_install_margin" >I cannot install margin on my Ubuntu VPS</h1></summary>
+  <summary><h3 id="cannot_install_margin" >I cannot install margin on my Ubuntu VPS</h3></summary>
 
   Yes, some VPSs run very minimal versions of Ubuntu that do not contain needed libraries for Margin. If running Margin on Ubuntu produces this
 
@@ -101,7 +101,7 @@ Then you should be good to go! Note, if you set up a fresh full version of Ubunt
 
 
 <details>
-  <summary><h1 id="os_support" >What operating systems do you support?</h1></summary>
+  <summary><h3 id="os_support" >What operating systems do you support?</h3></summary>
 
 Margin supports Windows, macOS and Linux in the following flavors:
 
@@ -111,7 +111,7 @@ Ubuntu 20.04+
 </details>
 
 <details>
-  <summary><h1 id="use_vps" >Can I use a VPS?</h1></summary>
+  <summary><h3 id="use_vps" >Can I use a VPS?</h3></summary>
 
 Yes you can and we recommend it! You can use Microsoft Remote Desktop to connect to your VPS or VPN instance (there are even iOS and Android apps) and check in on how margin is trading for you from your PC, phone or tablet. And what’s more, you won’t need to leave your laptop running 24/7.
 
@@ -126,25 +126,25 @@ Note that data usage (if connecting to your VPS instance using a phone or tablet
 </details>
 
 <details>
-  <summary><h1 id="machine_specs" >What are the minimum machine specs I need?</h1></summary>
+  <summary><h3 id="machine_specs" >What are the minimum machine specs I need?</h3></summary>
 
 We recommend at least 4GB RAM, a Core 2 Duo processor and a HD display for Windows, macOS and Linux systems. It is possible to run Margin on lower spec machines (2GB RAM with a 720p display) but this will restrict the number of pairs/bots that can reasonably be run.
 </details>
 
 <details>
-  <summary><h1 id="use_bots_with_futures_trading" >Can I use bots with futures trading?</h1></summary>
+  <summary><h3 id="use_bots_with_futures_trading" >Can I use bots with futures trading?</h3></summary>
 
 No, at this time we only support manual trading for the futures market.
 </details>
 
 <details>
-  <summary><h1 id="margin_in_docker" >How to run margin in Docker?</h1></summary>
+  <summary><h3 id="margin_in_docker" >How to run margin in Docker?</h3></summary>
 
 Please [follow this link](https://gist.github.com/warp1337/3ebe461af606046f382e50b584705e1c) to run Margin in Docker.
 </details>
 
 <details>
-  <summary><h1 id="ema_bot_work" >How does the EMA crossover bot work?</h1></summary>
+  <summary><h3 id="ema_bot_work" >How does the EMA crossover bot work?</h3></summary>
 
 The EMA crossover bot can be started in one of three modes: buy, sell or any. In the 'buy' mode it will wait until a buy situation arises before triggering its first spot order. In 'any' mode it is ready to either buy or sell, whichever situation occurs first.
 
@@ -168,7 +168,7 @@ It is possible to add a buy or sell offset which provides more confidence that a
 </details>
 
 <details>
-  <summary><h1 id="bollinger_band_bot_work" >How does the Bollinger Band bot work?</h1></summary>
+  <summary><h3 id="bollinger_band_bot_work" >How does the Bollinger Band bot work?</h3></summary>
 
 Margin's Bollinger Band bot is inspired by the John Bollinger's (https://www.investopedia.com/terms/b/bollingerbands.asp ) technical indicator.
 
@@ -188,7 +188,7 @@ Stop-loss is also available on both sides. On the buy-side, a stop loss can be s
 </details>
 
 <details>
-  <summary><h1 id="margin_maker_bot_work" >How does the mArgin maker bot work?</h1></summary>
+  <summary><h3 id="margin_maker_bot_work" >How does the mArgin maker bot work?</h3></summary>
 
 The mArgin maker bot is a dynamic bot that places limit orders.
 
@@ -206,7 +206,7 @@ Stop-loss can be enabled and then adapted in the chart. If a stop-loss event occ
 </details>
 
 <details>
-  <summary><h1 id="ping_pong_bot_work" >How does the static ping pong bot work?</h1></summary>
+  <summary><h3 id="ping_pong_bot_work" >How does the static ping pong bot work?</h3></summary>
 
 The static ping pong bot places limit orders.
 
@@ -218,7 +218,7 @@ The bot will continue to trade until you explicitly stop it.
 </details>
 
 <details>
-  <summary><h1 id="invalid_range" >I see an invalid range and can’t place an order</h1></summary>
+  <summary><h3 id="invalid_range" >I see an invalid range and can’t place an order</h3></summary>
 
 This occurs because you do not have enough funds to place even the minimum allowed order. For example, for a BTC/USD market, if you see an invalid range in Margin, it means in the ‘buy’ case that you do not have enough USD and in the ‘sell’ case enough BTC to place the minimum order possible.
 
