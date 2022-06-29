@@ -16,7 +16,7 @@
 
 ----
 
-<h4 id="get_start" >Getting started on Linux</h4>
+<h1 id="get_start" >Getting started on Linux</h4>
 
 1. Download margin-x86_64-4.6.0.AppImage from [BTSE link](https://app.btse.com/download/margin-x86_64.AppImage)
 1. Optionally, move and/or rename the newly created folder to where you want margin to reside. A common choice is `~/opt/margin`
@@ -27,7 +27,7 @@ Adapt for the location you actually put margin in.
 
 ----
 
-<h4 id="setup_linux_vps" >Setting up a Linux VPS to run Margin</h4>
+<h1 id="setup_linux_vps" >Setting up a Linux VPS to run Margin</h4>
 
 Running Margin on a cloud-based VPS such as Azure or DigitalOcean allows a trader to run their strategies uninterrupted. 
 
@@ -64,52 +64,52 @@ Finally, run the terminal:
 
 ----
 
-<h4 id="machine_sleep" >If my machine goes to sleep, will margin and its bots keep running?</h4>
+<h1 id="machine_sleep" >If my machine goes to sleep, will margin and its bots keep running?</h4>
 
 ----
 
-<h4 id="get_error_message" >On Linux I'm getting the error message: Could not load the Qt platform plugin "xcb" in "" even though it was found.</h4>
+<h1 id="get_error_message" >On Linux I'm getting the error message: Could not load the Qt platform plugin "xcb" in "" even though it was found.</h4>
 
 ----
 
-<h4 id="cannot_install_margin" >I cannot install margin on my Ubuntu VPS</h4>
+<h1 id="cannot_install_margin" >I cannot install margin on my Ubuntu VPS</h4>
 
 ----
 
-<h4 id="os_support" >What operating systems do you support?</h4>
+<h1 id="os_support" >What operating systems do you support?</h4>
 
 ----
 
-<h4 id="use_vps" >Can I use a VPS?</h4>
+<h1 id="use_vps" >Can I use a VPS?</h4>
 
 ----
 
-<h4 id="machine_specs" >What are the minimum machine specs I need?</h4>
+<h1 id="machine_specs" >What are the minimum machine specs I need?</h4>
 
 ----
 
-<h4 id="use_bots_with_futures_trading" >Can I use bots with futures trading?</h4>
+<h1 id="use_bots_with_futures_trading" >Can I use bots with futures trading?</h4>
 
 ----
 
-<h4 id="margin_in_docker" >How to run margin in Docker?</h4>
+<h1 id="margin_in_docker" >How to run margin in Docker?</h4>
 
 ----
 
-<h4 id="ema_bot_work" >How does the EMA crossover bot work?</h4>
+<h1 id="ema_bot_work" >How does the EMA crossover bot work?</h4>
 
 ----
 
-<h4 id="bollinger_band_bot_work" >How does the Bollinger Band bot work?</h4>
+<h1 id="bollinger_band_bot_work" >How does the Bollinger Band bot work?</h4>
 
 ----
 
-<h4 id="margin_maker_bot_work" >How does the mArgin maker bot work?</h4>
+<h1 id="margin_maker_bot_work" >How does the mArgin maker bot work?</h4>
 
 ----
 
-<h4 id="ping_pong_bot_work" >How does the static ping pong bot work?</h4>
+<h1 id="ping_pong_bot_work" >How does the static ping pong bot work?</h4>
 
 ----
 
-<h4 id="invalid_range" >I see an invalid range and can’t place an order</h4>
+<h1 id="invalid_range" >I see an invalid range and can’t place an order</h4>
