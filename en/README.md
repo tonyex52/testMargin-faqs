@@ -20,7 +20,7 @@
 
 <h1 id="get_start" >Getting started on Linux</h1>
 
-1. Download margin-x86_64.AppImage from [BTSE link](./margin-x86_64.AppImage)
+1. Download margin-x86_64.AppImage from [BTSE link](./margin-x86_64.AppImage?raw=true)
 1. Optionally, move and/or rename the newly created folder to where you want margin to reside. A common choice is `~/opt/margin`
 1. Go into the margin folder and run the file. Before the first run, the icon will be a default icon and not the margin logo shown in the screenshot. 
 1. Optionally, if you want to copy the .desktop file used to run margin to a different place, e. g. your desktop, or `~/.local/share/applications/` to be seen by your desktop environment, you'll have to change the last line to read something like `Exec=/home/username/opt/margin/margin-x86_64.AppImage` 
