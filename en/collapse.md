@@ -33,7 +33,7 @@ sudo systemctl enable xrdp
 sudo systemctl start xrdp sudo apt install -y firefox
 ```
 
-Next, log in as the margin user through your favorite RDP client, open Firefox and navigate to [btse.com](http://btse.com/) , download the latest Linux margin AppImage file (for example margin-x86_64-4.6.0.AppImage) to your Downloads directory.
+Next, log in as the margin user through your favorite RDP client, open Firefox and navigate to https://www.btse.com/tradingterminal , download the latest Linux margin AppImage file (for example margin-x86_64.AppImage) to your Downloads directory.
 
 Next, open a terminal:
 
@@ -50,7 +50,7 @@ sudo apt install -y xcb* libxcb* libxkbcommon*
 Finally, run the terminal:
 
 ```bash
-./margin-x86_64-4.6.0.AppImage
+./margin-x86_64.AppImage
 ```
 </details>
 
@@ -78,7 +78,7 @@ sudo apt install libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-iccc
 
 If this does not suffice, you can export the following environment variable before starting Margin, which should provide additional help to find out which additional libraries/packages are missing.
 
-QT_DEBUG_PLUGINS=1 ./margin-x86_64-4.6.0.AppImage
+QT_DEBUG_PLUGINS=1 ./margin-x86_64.AppImage
 </details>
 
 
@@ -106,7 +106,9 @@ Then you should be good to go! Note, if you set up a fresh full version of Ubunt
 Margin supports Windows, macOS and Linux in the following flavors:
 
 Windows 10 x64
+
 macOS (every version from 10.14 onwards)
+
 Ubuntu 20.04+
 </details>
 
@@ -149,9 +151,11 @@ Please [follow this link](https://gist.github.com/warp1337/3ebe461af606046f382e5
 The EMA crossover bot can be started in one of three modes: buy, sell or any. In the 'buy' mode it will wait until a buy situation arises before triggering its first spot order. In 'any' mode it is ready to either buy or sell, whichever situation occurs first.
 
 What triggers a buy?
+
 A buy event is triggered when the short term EMA line crosses the long term EMA line from below.
 
 What triggers a sell?
+
 A sell event is triggered when the short term EMA line crosses the long term EMA line from above.
 
 ![image](https://user-images.githubusercontent.com/30857981/176336927-51ce162c-fedb-4a3e-adb0-b11e4857220c.png)
